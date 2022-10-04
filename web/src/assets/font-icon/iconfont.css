@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1664714682756') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fenxiang:before {
+  content: "\f016f";
+}
+
+.icon-cc-menu-circle:before {
+  content: "\e672";
+}
+
+.icon-video:before {
+  content: "\e6bf";
+}
+
+.icon-king:before {
+  content: "\e69a";
+}
+
+.icon-menu:before {
+  content: "\e623";
+}
+
+.icon-Boxing-Helmet:before {
+  content: "\eb5d";
+}
+

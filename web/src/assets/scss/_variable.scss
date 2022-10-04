@@ -1,0 +1,65 @@
+
+/* 3.网站色彩和字体定义 (colors, text) */
+// colors 字体颜色、背景颜色
+$colors: (
+    "primary": #db9e3f,
+    "difficult": #805300,
+    "attack": #791a16,
+    "survive": #33332c,
+    "skill": #1f3695,
+    "lightblue": #4394e4,
+    "darkblue": #4b67af,
+    "white": #fff,
+    "white-1": #fcfcfc,
+    "white-2": #eceef0,
+    "light": #f9f9f9,
+    "light-1": #d4d9de,
+    "grey-0": #bababa,
+    "grey": #999,
+    "grey-1": #666,
+    "dark-1": #343440,
+    "dark": #222,
+    "black": #000
+);
+$border-color: map-get($colors , 'light-1');
+// 👆上面定义的变量要加';'结尾
+
+
+// font-size 字体大小 (安装插件"px to rem")
+$base-font-size: 1rem; // 根据html根标签设定的13px字体大小确定
+$font-sizes: (
+    xxs: 0.6154, // 8px
+    xs: 0.7692, // 10px
+    sm: 0.9231, // 12px
+    md: 1,      // 13px
+    lg: 1.0769, // 14px
+    xl: 1.2308  // 16px
+);
+
+
+// justify-content 主轴
+$flex-jc: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    between: space-between,
+    around: space-around,
+);
+
+
+// align-items 交叉轴
+$flex-ai: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    stretch: stretch
+);
+
+
+/* 5.常用边距定义 (margin, padding) */
+// spacing
+$spacing-types: (m: margin, p: padding);
+$spacing-directions: (t: top, r: right, b: bottom, l: left);
+$spacing-base-size: 1rem;
+$spacing-sizes: (0: 0, 1: 0.25, 2: 0.5, 3: 1, 4: 1.5, 5: 3);
+
