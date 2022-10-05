@@ -5,8 +5,8 @@
 参考 [Bilibili 全栈之巅](https://space.bilibili.com/341919508) 教程开发 [(课程地址)](https://www.bilibili.com/video/BV1A4411Y7fi) ，并在此基础上完善了功能和细节，首先感谢大神的教程！
 
 ### 环境准备
--   Node.js v14.15.5
--   MongoDB v6.0.1
+-   Node.js v16.16.0.
+-   MongoDB v6.0.1.
 
 ### 安装MongoDB数据库
 
